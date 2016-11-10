@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BG color changer</title>
+
+</head>
+<body>
+
+	<div id="allInput">
+		<div id="field">
+			<label>Red</label>
+			<input type="range"  min="0" max="255"  value="0" step="1" id="red">
+		</div>
+
+		<div id="field">
+			<label>Green</label>
+			<input type="range"  min="0" max="255"  value="0" step="1" id="green">
+		</div>
+
+		<div id="field">
+			<label>Blue</label>
+			<input type="range"  min="0" max="255"  value="0" step="1" id="blue" >
+		</div>
+
+		<div id="field">
+			<label>Alpha</label>
+			<input type="range"  min="0" max="255"  value="0" step="1" id="alpha">
+		</div>
+		<span id="hexa"></span>
+	</div>
+
+
+
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script src="app.js"></script>	
+</body>
+</html>
